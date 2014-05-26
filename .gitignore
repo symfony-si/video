@@ -1,0 +1,3 @@
+/symfony
+/video/*
+!video/.gitkeep

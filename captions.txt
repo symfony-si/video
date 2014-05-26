@@ -1,0 +1,5 @@
+1311811200|Symfony 2.0.0 released - 28 July 2011
+1346889600|Symfony 2.1.0 released - 6 September 2012
+1362096000|Symfony 2.2.0 released - 1 March 2013
+1370217600|Symfony 2.3.0 released - 3 June 2013
+1386028800|Symfony 2.4.0 released - 3 December 2013

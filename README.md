@@ -11,7 +11,7 @@ Script `build` creates a video file from symfony Git folder into `video` folder.
 
 ## Requirements
 
-* Gource 0.4.2
+* Gource 0.42
 * ffmpeg
 
 ## Licence

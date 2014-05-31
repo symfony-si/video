@@ -3,6 +3,37 @@
 
 git clone git://github.com/symfony/symfony.git
 
-gource --background 000000 --logo ./images/logo.png --logo-offset 10x10 --title "Symfony Development Visualization" --hide filenames,dirnames,mouse --date-format "%d %B %Y" --seconds-per-day 0.000002 --stop-position 1 -1920x1080 --caption-file ./captions.txt -e 0.02 --bloom-multiplier 1.0 --bloom-intensity 0.5 --highlight-all-users --auto-skip-seconds 2 -o video/symony.ppm ./symfony
+gource \
+    --background 000000 \
+    --logo ./images/logo.png \
+    --logo-offset 10x10 \
+    --title "Symfony Development Visualization" \
+    --hide filenames,dirnames,mouse \
+    --date-format "%d %B %Y" \
+    --seconds-per-day 0.1 \
+    --stop-position 1 \
+    -1920x1080 \
+    --caption-file ./captions.txt \
+    -e 0.02 \
+    --bloom-multiplier 1.0 \
+    --bloom-intensity 0.5 \
+    --highlight-all-users \
+    --auto-skip-seconds 1 \
+    --key \
+    -o ./video/symfony.ppm \
+    ./symfony
 
-ffmpeg -y -r 60 -f image2pipe -vcodec ppm -i ./video/symfony.ppm -i ./music/music.mp3 -vcodec libx264 -preset ultrafast -pix_fmt yuv420p -crf 1 -threads 0 -bf 0 video/symfony.mp4
+ffmpeg \
+    -y \
+    -r 60 \
+    -f image2pipe \
+    -vcodec ppm \
+    -i ./video/symfony.ppm \
+    -i ./music/music.mp3 \
+    -vcodec libx264 \
+    -preset ultrafast \
+    -pix_fmt yuv420p \
+    -crf 1 \
+    -threads 0 \
+    -bf 0 \
+    ./video/symfony.mp4

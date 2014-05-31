@@ -14,6 +14,10 @@ Script `build` creates a video file from symfony Git folder into `video` folder.
 * Gource 0.42
 * ffmpeg
 
+## Warning
+
+Executing `build` command can take a long time to produce a video.
+
 ## Licence
 
 This repository is released under the MIT License. It is made for uncommercial learning purposes of Gource usage. Music is a subject of Creative Commons License and all the credits goes to Snowman from soundcloud.com.

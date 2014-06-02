@@ -5,20 +5,17 @@ git clone git://github.com/symfony/symfony.git
 
 gource \
     --background 000000 \
-    --logo ./images/logo.png \
-    --logo-offset 10x10 \
-    --title "Symfony Development Visualization" \
     --hide filenames,dirnames,mouse \
     --date-format "%d %B %Y" \
-    --seconds-per-day 0.1 \
-    --stop-position 1 \
+    --font-size 26 \
+    --seconds-per-day 0.01 \
+    --stop-date '2011-07-28 23:59:59' \
     -1920x1080 \
-    --caption-file ./captions.txt \
     -e 0.02 \
     --bloom-multiplier 1.0 \
     --bloom-intensity 0.5 \
     --highlight-all-users \
-    --auto-skip-seconds 1 \
+    --auto-skip-seconds 0.5 \
     --key \
     -o ./video/symfony.ppm \
     ./symfony
@@ -37,3 +34,4 @@ ffmpeg \
     -threads 0 \
     -bf 0 \
     ./video/symfony.mp4
+

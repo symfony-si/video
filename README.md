@@ -20,6 +20,6 @@ Executing `build` command can take a long time to produce a video.
 
 ## Licence
 
-This repository is released under the MIT License. It is made for uncommercial learning purposes of Gource usage. Music is a subject of Creative Commons License and all the credits goes to Snowman from soundcloud.com.
+Video is made for uncommercial learning purposes of Gource usage and Symfony history development presentation. This repository is released under a [MIT License](LICENSE). Music is licensed under a [Creative Commons License](http://creativecommons.org/licenses/by/3.0/) thanks to snow-man from soundcloud.com.
 
 [![Symfony Framework Development History Visualization](http://img.youtube.com/vi/K6OQ0r5EVWA/0.jpg)](https://www.youtube.com/watch?v=K6OQ0r5EVWA)

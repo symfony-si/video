@@ -9,7 +9,6 @@ gource \
     --date-format "%d %B %Y" \
     --font-size 26 \
     --seconds-per-day 0.01 \
-    --stop-date '2011-07-28 23:59:59' \
     -1920x1080 \
     -e 0.02 \
     --bloom-multiplier 1.0 \

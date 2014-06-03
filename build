@@ -6,8 +6,12 @@ git clone git://github.com/symfony/symfony.git
 gource \
     --background 000000 \
     --hide filenames,dirnames,mouse \
+	--logo ./images/logo.png \
+    --logo-offset 10x10 \
+    --title "Symfony Development Visualization" \
     --date-format "%d %B %Y" \
     --font-size 26 \
+	--caption-file ./captions.txt \
     --seconds-per-day 0.01 \
     -1920x1080 \
     -e 0.02 \
